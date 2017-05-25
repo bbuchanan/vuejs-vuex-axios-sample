@@ -20,7 +20,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'hello',
   mounted: function() {
@@ -33,7 +32,7 @@ export default {
   },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your List of Projects'
     }
   }
 }

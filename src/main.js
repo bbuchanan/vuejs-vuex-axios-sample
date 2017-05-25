@@ -27,9 +27,6 @@ const store = new Vuex.Store({
     }
   },
   getters: {
-    openProjects: state => {
-      return state.projects.filter(p => !project.completed)
-    },
     projects: state => state.projects
   }
 })
